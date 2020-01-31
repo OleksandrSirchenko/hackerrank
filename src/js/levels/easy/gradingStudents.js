@@ -7,7 +7,7 @@ function gradingStudents(grades) {
         let diff = _roundToFive(grades[grade]) - grades[grade];
 
         if (diff < 3 && grades[grade] > 37) {
-          grades[grade] = _roundToFive(grades[grade]);
+            grades[grade] = _roundToFive(grades[grade]);
         }
     }
 

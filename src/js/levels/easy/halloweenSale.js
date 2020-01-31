@@ -5,13 +5,11 @@ function howManyGames(p, d, m, s) {
     for (gamesCount = -1; gamesCount <= s; gamesCount++) {
         if (p < s && sum <= s) {
             p > m ? (sum += p, p -= d)
-                : sum += m
+                : sum += m;
         } else if (p > s) {
             return gamesCount = 0;
         } else {
             return gamesCount;
         }
     }
-
-    return gamesCount;
 }

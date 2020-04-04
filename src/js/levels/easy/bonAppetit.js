@@ -11,5 +11,3 @@ const bonAppetit = (bill, k, b) => {
     return result === b ? console.log(BON_APPETIT)
         : console.log(b - result);
 }
-
-console.log(bonAppetit([72, 53, 60, 66, 90, 62, 12, 31, 36, 94], 6, 288));

@@ -12,6 +12,6 @@ const chocolateFeast = (n, c, m) => {
         bars -= m * tmpChoco;
         bars += tmpChoco;
     }
-
+ 
     return chocolateCount; 
 }
